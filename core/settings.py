@@ -39,17 +39,17 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 
+# SITE_ID = 1
+
 THIRD_PARTY_APPS = [
     'rest_framework',
 ]
 
-
 LOCAL_APPS = [
-    'apps.user'
+    'apps.user',
 ]
 
 INSTALLED_APPS = DJANGO_APPS+THIRD_PARTY_APPS+LOCAL_APPS
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
